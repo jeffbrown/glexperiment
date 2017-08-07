@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+repositories {
+    maven { url 'https://repository-pronghorn.forge.cloudbees.com/snapshot/'}
+}
+
+dependencies {
+    compile 'com.ociweb:GreenLightning:0.0.6-SNAPSHOT'
+}
